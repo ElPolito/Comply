@@ -1,0 +1,23 @@
+.comply{
+	opacity: 0;
+	background: #252525;
+	position: absolute;
+	height: auto;
+	transform: inherit;
+	transition:  opacity 0.3s;
+}
+.comply ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.comply li{
+	padding-left: 5px;
+	color: white;
+}
+.comply li:hover{
+	background: #151515;
+}
+.comply.visible{
+	opacity: 1;
+}
